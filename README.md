@@ -1,2 +1,2 @@
 # Somando
-projetinho de soma usando JS
+Projetinho de soma usando JS
