@@ -1,0 +1,63 @@
+ html, body {
+            height: 100%;
+        }
+        html {
+            display: table;
+            margin: auto;
+        }
+
+        body{
+            font: normal 18pt Arial;
+            color: white;
+            background: rgb(161, 91, 103);
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .container {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: rgb(228, 163, 174);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+            border-radius: 25px;
+            border-style: none;
+            padding: 0px;
+            color: #e4a3ae;
+          
+            background: #a15b67;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+        }
+
+        .hover {
+            margin: 40px 40px;
+            color: #e4a3ae;
+            background: rgb(161, 91, 103);
+          
+        }
+
+        .hover:hover {
+            background: rgb(144, 82, 92);
+            color: #e4a3ae;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+        }
+
+        div#res {
+            color: rgb(228, 163, 174);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+        }
+        input[type="number"]::-webkit-outer-spin-button, 
+        input[type="number"]::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+             margin: 0;
+        }
+        input[type="number"] {
+             -moz-appearance: textfield;
+        }
